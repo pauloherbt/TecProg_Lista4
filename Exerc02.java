@@ -4,7 +4,7 @@ import java.util.Scanner;
 	
 public class Exerc02 {
 	public static float valorAluguel(float preço, String dia, String tipo) {
-		float valorAluguel=preço, desconto=0, acrescimo=0;
+		float desconto=0, acrescimo=0;
 		if(dia.equals("segunda")||dia.equals("terça")||dia.equals("quinta")) {
 			desconto=(float) (preço*0.4);
 		}
